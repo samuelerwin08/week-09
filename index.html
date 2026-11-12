@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Samuel</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #ffb1dc;
+      color: #334155;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: #5a1736;
+      color: #ffffff;
+      padding: 16px 24px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      position: sticky;
+      bottom: 0;
+      z-index: 100;
+      background-color: #5a1736;
+      color: #ffffff;
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 0.85rem;
+      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    main {
+      flex: 1;
+      padding: 24px 16px;
+    }
+
+    
+    .flex-container {
+      columns: 4 260px; 
+      column-gap: 10px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    
+    .card {
+      display: inline-block; 
+      width: 100%;
+      margin-bottom: 10px; 
+      break-inside: avoid;
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.70s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px) scale(1.05);
+      border-color: rgba(249, 22, 22, 0.4);
+      box-shadow: 0 10px 24px rgba(7, 3, 0, 0.18), 0 0 14px rgba(251, 146, 60, 0.28);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card p {
+      padding: 12px 14px;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portofolio by Samuel</h1>
+  </header>
+
+  <main>
+    <div class="flex-container">
+      <div class="card">
+        <img src="images/ilust1.jpg" alt="girl and plush">
+        <p>Seseorang memegang plush yang digambar menggunakan teknik realis</p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust2.png" alt="Daredevil vs Bullseye">
+        <p>ilustrasi daredevil yang mengalahkan bullseye didalam sebuah gereja</p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust3.png" alt="Be Bright and Ignite Poster">
+        <p>Poster ajakan anak muda untuk memajukan ekonomi Indonesia</p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust9.jpg" alt="robot girl">
+        <p>Rel kereta api tepi pantai memanjang lurus</p>
+      </div>
+
+
+      <div class="card">
+        <img src="images/ilust5.jpg" alt="Haerin">
+        <p>ilustrasi karakter manwha </p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust6.jpg" alt="Madoka">
+        <p>Ilustrasi karakter animanga madoka magica</p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust7.png" alt="Whiplash">
+        <p>ilustrasi storytelling salah satu sequence dalam film whiplash</p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust8.png" alt="Frankenstein">
+        <p>ilustrasi storytelling adegan penciptaan monster oleh victor frankenstein</p>
+      </div>
+
+       <div class="card">
+        <img src="images/ilust4.png" alt="The Green Mile">
+        <p>ilustrasi storytelling sequence terakhir sebelum kematian john coffey</p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust10.jpg" alt="Reze chainsawman">
+        <p>ilustrasi karakter animanga chainsawman</p>
+      </div>
+
+      <div class="card">
+        <img src="images/5object.png" alt="5 object 3d modeling">
+        <p>Tugas 3d modeling bagian texture and material benda</p>
+      </div>
+
+      <div class="card">
+        <img src="images/isometric.jpg" alt="isometric gaming room">
+        <p>Isometric gaming room yang dibuat menggunakan adobe ilustrator</p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust11.png" alt="life of pi">
+        <p>ilustrasi storytelling adegan Pi dan richard parker </p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust12.jpg" alt="Yae Miko Genshin">
+        <p>ilustrasi karakter Yae Miko dari genshin impact </p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust13.png" alt="500">
+        <p>ilustrasi adegan lift dalam film 500 days of summer </p>
+      </div>
+
+      <div class="card">
+        <img src="images/ilust14.png" alt="sua">
+        <p>ilustrasi karakter Sua dalam Alien stage</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; Portofolio - Samuel Erwin</p>
+  </footer>
+
+</body>
+</html>
